@@ -5,7 +5,7 @@ If you want to use these:
   1. Create a 'Script' in ServerStorage
   2. Rename to the script name (optional)
   3. Paste the entire script in the Script instance
-  4. Saving as a plugin: \
+  4. Save as a plugin: \
     4A. Right click the Script \
     4B. Hover over `Save/Export` \
     4C. Click `Save As Local Plugin` \
