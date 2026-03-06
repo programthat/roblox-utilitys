@@ -11,6 +11,9 @@
 -- Do note that the SpecialMesh does not have collsion and cant be clicked
 -- To disable the plugin just click the button in the menu bar again
 
+if not plugin then return end
+if game:GetService("RunService"):IsRunning() then return end
+
 local Selection = game:GetService("Selection")
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
 local CoreGui = game:GetService("CoreGui")
