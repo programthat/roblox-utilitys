@@ -2,6 +2,9 @@
 -- roblox: @ek587290135
 -- github: @programthat
 
+-- A tool for scaling a SpecialMesh using a scale handle (still allows the part to be moved like normal)
+-- Note the SpecialMesh must be a child of a part, and that part (like its scale, position, etc) impact the mesh
+
 local Selection = game:GetService("Selection")
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
 local CoreGui = game:GetService("CoreGui")
