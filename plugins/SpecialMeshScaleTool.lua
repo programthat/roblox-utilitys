@@ -5,6 +5,12 @@
 -- A tool for scaling a SpecialMesh using a scale handle (still allows the part to be moved like normal)
 -- Note the SpecialMesh must be a child of a part, and that part (like its scale, position, etc) impact the mesh
 
+-- To use this tool, activate it in the plugins bar (or wherever its located) and select a part with a SpecialMesh as a child
+-- It will then add scale handles to the SpecialMesh and you can scale from there
+-- Note that using the builtin tools (e.g., Rotate, Move) work fine, however the builtin scale tool does not (as it scales the part not the mesh)
+-- Do note that the SpecialMesh does not have collsion and cant be clicked
+-- To disable the plugin just click the button in the menu bar again
+
 local Selection = game:GetService("Selection")
 local ChangeHistoryService = game:GetService("ChangeHistoryService")
 local CoreGui = game:GetService("CoreGui")
