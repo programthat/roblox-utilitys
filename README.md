@@ -11,4 +11,4 @@ If you want to use these:
     4B. Hover over `Save/Export` \
     4C. Click `Save As Local Plugin` \
     4D. Press `Save` (in the save menu)
-  5. Enjoy :)
+  5. Enjoy (more details on use in the plugin's code)
