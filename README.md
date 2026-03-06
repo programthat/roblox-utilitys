@@ -1,6 +1,5 @@
 # roblox-utilitys
-Just some utilitys I made for roblox studio
-Feel free to use if you want (I would want credit if possible 😉)
+Just some utilitys I made for roblox studio, feel free to use if you want
 
 If you want to use these:
   1. Create a 'Script' in ServerStorage
